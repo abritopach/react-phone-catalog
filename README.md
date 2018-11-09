@@ -1,4 +1,49 @@
+# ReactPhoneCatalog
+
+Sample project that shows how to build a Phones Catalog APP with React, Redux (State Management) and Material UI.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project shows you how to:
+
+    * Use React, Redux and Material UI.
+    * Show phones list.
+    * Show phone detail.
+
+Technologies: React, React Redux, Material UI, JavaScript.
+
+![Technologies](readme_resources/technologies.jpg "Technologies")
+
+## App Example
+
+![App](readme_resources/app.gif "App")
+
+## Options for testing the server side
+
+----------
+
+## Start nodejs server (MOCKED PHONES REST API)
+
+```bash
+    install dependencies:
+    $ cd express-catalog-app-api && npm install
+
+    run the app:
+    $ DEBUG=express-catalog-app-api:* npm start
+```
+
+
+## Start fake json server (MOCKED PHONES REST API)
+
+```bash
+    
+    $ cd json-server 
+    $ json-server --watch db.json
+```
+
+* [json server](https://github.com/typicode/json-server)
+
+----------
 
 ## Available Scripts
 
